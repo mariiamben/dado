@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="3va{ooSv23G]@H,oEAD^">dado</variable></variables><block type="device_gesture_event" id="+Sr1NgPqyCE#jnifoy!^" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="R10ZbUW|{T-lr~3*rFpK"><field name="VAR" id="3va{ooSv23G]@H,oEAD^">dado</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="~F2[I2{|W[v;+Kw*{1v5"><value name="min"><shadow type="math_number" id="cK`7e0p@==}.p*qB#d0%"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="3TH5ZI?1-K#vw}u05xV|"><field name="NUM">6</field></shadow></value></block></value><next><block type="controls_if" id="F_VR/nl`6BX.myDx*$Z["><mutation elseif="5"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="#h5cktnsb4Xw9c$wEiUz"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="V,DM4tOi.gX86MwO:Sv^"><field name="NUM">1</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="w^4L`y3X}32x~NLo,_Y4"><field name="VAR" id="3va{ooSv23G]@H,oEAD^">dado</field></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="QH;Dm1:LQ,]JRURj+Sa~"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="=4_SZt@^i+U_d:`$0.}W"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="KvM,$0*jx({PFta)$X@l"><field name="NUM">2</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="DLD,V2#-;{`uI7wfwP/S"><field name="VAR" id="3va{ooSv23G]@H,oEAD^">dado</field></block></value></block></value><statement name="DO1"><block type="device_show_leds" id="pT{~7k+6;84Ht59-;4h1"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . #
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="Wz1~_-@,AraHAY`YU6e("><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="A:{S#@j:$|@L^Gh/,~gI"><field name="NUM">3</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="[oQBo=3-/JC/FJHH`^.@"><field name="VAR" id="3va{ooSv23G]@H,oEAD^">dado</field></block></value></block></value><statement name="DO2"><block type="device_show_leds" id="v_%^v[JER_=V:qIxDXp,"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . #
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id="lvD{7g;gIXd$[`Wc.~h7"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="mlZd(P9`s%O-X#Tb(ARO"><field name="NUM">4</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="{tB[73[0pFzkO;rx%%VH"><field name="VAR" id="3va{ooSv23G]@H,oEAD^">dado</field></block></value></block></value><statement name="DO3"><block type="device_show_leds" id="O:X_ZCV+a{V8VXafSB#J"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field></block></statement><value name="IF4"><block type="logic_compare" id="UIfW!|+Yo(s/54I@m^7v"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="=foW!tPIaZXR_D(iz92e"><field name="NUM">5</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="?BH*D@23A#w4gUK6pX`M"><field name="VAR" id="3va{ooSv23G]@H,oEAD^">dado</field></block></value></block></value><statement name="DO4"><block type="device_show_leds" id="HW;n6^HrOJJqpV9Nf8`w"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . #
+        `</field></block></statement><value name="IF5"><block type="logic_compare" id="J/UxsdRdy+QZdAArQd*K"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="d[x{|O1EU(v3$~Z~mp)$"><field name="NUM">6</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="R~-ml0=S$j-}sd2WK;0A"><field name="VAR" id="3va{ooSv23G]@H,oEAD^">dado</field></block></value></block></value><statement name="DO5"><block type="device_show_leds" id="Th=[oCLEKXo*r/Y1Gx0)"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . . . . . 
+        # . . . #
+        `</field></block></statement></block></next></block></statement></block></xml>
